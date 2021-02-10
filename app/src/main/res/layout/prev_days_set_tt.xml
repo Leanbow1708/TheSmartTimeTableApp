@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:elevation="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:textSize="@dimen/_13ssp"
+        android:text="Sunday"
+        android:fontFamily="@font/montserrat_regular"
+        android:paddingLeft="@dimen/_15sdp"
+        android:gravity="left|start|center"
+        android:background="#ffffff"
+        android:id="@+id/btn_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+    </Button>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/motion_layout"
+    tools:context=".MainActivity">
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+
+        android:visibility="gone"
+        android:translationZ="10dp"
+        android:id="@+id/shimmer_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:duration="800"
+        app:layout_constraintBottom_toBottomOf="@+id/main_frame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <include
+
+          layout="@layout/placeholder_layout_about_us"
+          />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+
+        android:translationZ="10dp"
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:duration="800"
+        app:layout_constraintBottom_toBottomOf="@+id/main_frame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Adding 3 rows of placeholders -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/placeholder_layout" />
+
+            <include layout="@layout/placeholder_layout" />
+
+            <include layout="@layout/placeholder_layout" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/layout_primary"
+        android:elevation="10dp"
+        android:background="@drawable/bottom_navigation_view_curved"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout_home"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bottom_navigation_selected_item_bkg"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:src="@drawable/ic_home_primary"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                 />
+            <TextView
+                android:id="@+id/txt_home"
+                android:layout_marginLeft="5dp"
+                android:text="Home"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_progress"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_progress"
+                android:src="@drawable/ic_progress"
+                android:layout_width="20sp"
+                android:layout_height="20sp"/>
+            <TextView
+                android:id="@+id/txt_progress"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:text="Progress"
+                android:textColor="#2d2d2d"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/layout_time_table"
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_time_table"
+                android:src="@drawable/ic_time_table"
+                android:layout_width="20sp"
+                android:layout_height="20sp"/>
+            <TextView
+                android:id="@+id/txt_time_table"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:text="Schedule"
+                android:textColor="#2d2d2d"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/layout_about_me"
+
+
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_about_me"
+                android:src="@drawable/ic_person"
+                android:layout_width="20sp"
+                android:layout_height="20sp"/>
+            <TextView
+                android:id="@+id/txt_about_me"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp"
+                android:text="About"
+                android:textColor="#2d2d2d"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

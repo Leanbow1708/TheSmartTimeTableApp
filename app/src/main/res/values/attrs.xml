@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollDatePicker">
+        <attr name="baseColor" format="color"/>
+        <attr name="baseTextColor" format="color"/>
+        <attr name="selectedColor" format="color"/>
+        <attr name="selectedTextColor" format="color"/>
+        <attr name="showTitle" format="boolean"/>
+        <attr name="showFullDate" format="boolean" />
+    </declare-styleable>
+</resources>

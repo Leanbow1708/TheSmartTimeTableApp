@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/linearLayout42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/colorPrimary"
+                android:text="Features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="#e3e3e3"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="1dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout42">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="This app gives you features of time table and progress tracker altogether with below listed features ."
+                android:textColor="#2d2d2d"
+                android:textSize="@dimen/_11ssp" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="You can add,update or delete your schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="You can use start and end button given to every slots to honestly track your progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="You can also add a break amount,in case you took any between those slots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="What's next"
+                android:textSize="@dimen/_17ssp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="#e3e3e3"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="This app is just my attempt to create a smart time table and in it's later release I'll be adding following features"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="Alarms and Notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="Color customizations for every slot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/circle_bkg_photo"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="@dimen/_5sdp"/>
+                <TextView
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:textColor="#2d2d2d"
+                    android:text="and many more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

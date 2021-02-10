@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="top|center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_database_error"
+        android:layout_width="50sp"
+        android:layout_height="50sp"/>
+    <TextView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="#000000"
+        android:text="No data found"
+        android:textSize="@dimen/_13ssp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="#2d2d2d"
+        android:fontFamily="@font/montserrat_light"
+        android:text="You can add or import data from previous days."
+        android:textSize="@dimen/_10ssp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

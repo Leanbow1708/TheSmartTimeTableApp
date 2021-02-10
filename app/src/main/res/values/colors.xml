@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9a84db</color>
+    <color name="colorPrimaryDark">#9a84db</color>
+    <color name="colorAccent">#9a84db</color>
+    <color name="default_selected">#686868</color>
+    <color name="default_selected_text">#FFFFFF</color>
+    <color name="default_base">#FFFFFF</color>
+    <color name="default_base_text">#000000</color>
+
+    <color name="splash">#e9e3fa</color>
+    <color name="white">#ffff</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_80">#37474F</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+    <color name="mainColor">#F03A4F</color>
+
+</resources>
