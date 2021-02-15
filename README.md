@@ -1,6 +1,8 @@
 # TheSmartTimeTableApp
 Using this app you can add,update or delete your weekly time table as well as you can see your weekly progress using charts
 
+<a href="https://play.google.com/store/apps/details?id=com.mayank.mytimetable">Available on Google Play Store </a>
+
 <b><h2>Screenshots</h2></b>
 
 ![home_page](https://user-images.githubusercontent.com/66316113/107668651-e793c180-6cb6-11eb-83a1-bc05ea42a4a3.jpeg)
